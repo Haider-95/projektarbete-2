@@ -19,7 +19,6 @@ public class DirectionHandler {
             this.y++;
         } else {
             System.out.println("You can only move back from here\n ");
-            return;
         }
     }
 
@@ -28,7 +27,6 @@ public class DirectionHandler {
             this.y--;
         } else {
             System.out.println("You can only move back from here\n ");
-            return;
         }
     }
 
@@ -37,7 +35,6 @@ public class DirectionHandler {
             this.x++;
         } else {
             System.out.println("You can only move back fom here\n ");
-            return;
         }
     }
 
@@ -46,7 +43,6 @@ public class DirectionHandler {
             this.x--;
         } else {
             System.out.println("You can only move back from here\n ");
-            return;
 
         }
 
